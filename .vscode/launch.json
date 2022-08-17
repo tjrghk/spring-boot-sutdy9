@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-ItemServiceApplication<validation>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "hello.itemservice.ItemServiceApplication",
+      "projectName": "validation",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
