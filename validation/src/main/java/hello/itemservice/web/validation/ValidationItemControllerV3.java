@@ -54,7 +54,7 @@ public class ValidationItemControllerV3 {
     //     if(item.getPrice() != null && item.getQuantity() != null) {
     //         int resultPrice = item.getPrice() * item.getQuantity();
     //         if(resultPrice < 10000) {
-    //             bindingResult.reject("aaa", new Object[]{10000, resultPrice}, null);
+    //             bindingResult.reject("totalPriceMin", new Object[]{10000, resultPrice}, null);
     //         }
     //     }
        
@@ -77,7 +77,7 @@ public class ValidationItemControllerV3 {
         if(item.getPrice() != null && item.getQuantity() != null) {
             int resultPrice = item.getPrice() * item.getQuantity();
             if(resultPrice < 10000) {
-                bindingResult.reject("aaa", new Object[]{10000, resultPrice}, null);
+                bindingResult.reject("totalPriceMin", new Object[]{10000, resultPrice}, null);
             }
         }
        
